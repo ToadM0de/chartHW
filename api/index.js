@@ -4,6 +4,8 @@ const app = express();
 
 app.use(express.json());
 
+const buttonData = ["frog", "rat", "weevil", "beetle"];
+
 const crittersFound = [
   "frog",
   "frog",
